@@ -152,7 +152,7 @@ return array(
 			'connectionString' => 'mysql:host=127.0.0.1;dbname=vipcrm',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '123',
+			'password' => 'songhui@678',
 			// 'password' => 'xnjdeepcoo2013',
 			'charset' => 'utf8',
 			'tablePrefix' => 'cm_',
