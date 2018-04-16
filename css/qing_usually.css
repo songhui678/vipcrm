@@ -1,0 +1,166 @@
+@charset "utf-8";
+.Q_closeA {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(../images/common/ico_close.png?2012020801) no-repeat
+}
+.Q_closeA:hover {
+	background-position:0 -16px
+}
+.Q_btnA, .Q_btnA span, .Q_btnB, .Q_btnB span, .Q_btnC, .Q_btnC span {
+	background:url(../images/common/sprite_btn.png?2012020801) no-repeat;
+}
+.Q_btnA, .Q_btnA span {
+	display:inline-block;
+	height:22px;
+	line-height:22px;
+	color:#fff;
+	cursor:pointer;
+	overflow:hidden
+}
+.Q_btnA {
+	padding:0 0 0 2px;
+	_zoom:1
+}
+.Q_btnA span {
+	padding:0 17px 0 15px;
+	background-position:right -22px
+}
+.Q_btnA:hover {
+	background-position:0 -44px;
+	text-decoration:none
+}
+.Q_btnA:hover span {
+	background-position:right -66px
+}
+.Q_btnA .Q_iconAdd {
+	margin:0 4px 0 0;
+*vertical-align:4px;
+	_vertical-align:0;
+	_margin-top:6px
+}
+.Q_btnB, .Q_btnB span {
+	display:inline-block;
+	height:32px;
+	line-height:32px;
+	color:#fff;
+	cursor:pointer;
+}
+.Q_btnB {
+	padding-left:2px;
+	background-position:0 -88px;
+	_zoom:1
+}
+.Q_btnB span {
+	padding:0 10px 0 8px;
+	background-position:right -120px;
+}
+.Q_btnB:hover {
+	text-decoration:none;
+	background-position:0 -152px
+}
+.Q_btnB:hover span {
+	background-position:right -184px
+}
+.Q_btnB .Q_iconAdd {
+	margin:0 4px 0 0;
+*vertical-align:5px;
+	_margin-top:10px;
+	_vertical-align:0
+}
+.Q_btnC, .Q_btnC span {
+	display:inline-block;
+	height:22px;
+	line-height:22px;
+	color:#fff;
+	cursor:pointer;
+	overflow:hidden
+}
+.Q_btnC {
+	padding:0 0 0 2px;
+	background-position:0 -44px;
+	_zoom:1
+}
+.Q_btnC:hover {
+	text-decoration:none
+}
+.Q_btnC span {
+	padding:0 5px 0 3px;
+	background-position:right -66px
+}
+.Q_btnC .Q_iconAdd {
+	margin:0 4px 0 0;
+*vertical-align:4px;
+	_vertical-align:0;
+	_margin-top:6px;
+	background-position:0 -12px
+}
+.Q_btnD, .Q_btnD span {
+	background:#85BEE4;
+	display:inline-block;
+	height:22px;
+	line-height:22px;
+	color:#fff;
+	cursor:pointer;
+}
+.Q_btnD:hover {
+	text-decoration:none
+}
+.Q_btnD span {
+	padding:0 12px
+}
+.Q_btnE, .Q_btnE span {
+	background:#85BEE4;
+	font-size:18px;
+	display:inline-block;
+	height:33px;
+	line-height:33px;
+	color:#fff;
+	cursor:pointer;
+}
+.Q_btnE:hover {
+	text-decoration:none
+}
+.Q_btnE span {
+	padding:0 24px
+}
+.Q_btnDis, .Q_btnDis span {
+	cursor:default;
+	background:#d5d5d5
+}
+.Q_iconAdd {
+	background:url(../images/common/icon_follow.png?2012020801) no-repeat
+}
+.Q_iconAdd {
+	display:inline-block;
+	width:10px;
+	height:10px;
+}
+.Q_iconVideo, .Q_iconMusic {
+	display:inline-block;
+	width:52px;
+	height:42px;
+	cursor:pointer;
+	background:url(../images/common/icon_media.png?2012020801) no-repeat
+}
+.Q_iconMusic {
+	background-position:0 -45px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+	overflow:hidden
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
